@@ -1,7 +1,6 @@
 def clone_or_pull(self, repo_url: str, branch="main") -> str:
         """
-        克隆或拉取指定仓库到本地
-        如果仓库不存在则克隆，存在则切换到指定分支并拉取更新
+        
         
         :param repo_url: 仓库的url
         :param branch: 要操作的分支名称，默认为 "main"
